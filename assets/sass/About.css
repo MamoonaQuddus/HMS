@@ -1,0 +1,52 @@
+/* About Us Area CSS */
+.about-us-area {
+    background-color: #e6f0fa; /* Light blue background to match other sections */
+    padding: 70px 0; /* Top and bottom padding for spacing */
+}
+.row align-items-center{
+
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.about-us-area h2 {
+    font-size: 50px; /* Font size for About Us subtitle */
+    color:  #333; /* Bright blue color */
+    margin-bottom: 50px;
+    margin-left: 70px;
+    font-weight: bold;
+}
+
+.about-us-area h3 {
+    font-size: 36px; /* Font size for main heading */
+    color: #333; /* Dark text color */
+    margin-bottom: 20px;
+}
+
+.about-us-area p {
+    font-size: 17px; /* Text size for paragraph */
+    color: #555; /* Light grey for readability */
+    line-height: 1.7; /* Line height for improved spacing */
+}
+
+/* Image Styling */
+.about-us-image {
+    
+    margin-top: 80px;
+    width: 100%; /* Ensure the image is responsive */
+    /* height: auto; */
+     /* Maintain the aspect ratio */
+    height: 80%;
+    border-radius: 10px; /* Optional: Adds rounded corners to the image */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow effect */
+}
+
+/* Responsive Design */
+@media (max-width: 992px) {
+    .about-us-area .row {
+        flex-direction: column-reverse; /* Stack image and text on smaller screens */
+        text-align: center; /* Center text for smaller screens */
+    }
+    .about-us-image {
+        margin-bottom: 30px; /* Adds space between the image and the text on smaller screens */
+    }
+}

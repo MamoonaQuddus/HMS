@@ -1,0 +1,43 @@
+
+/* Statistics Section CSS */
+.statistics-area {
+    padding: 60px 0;
+    background-color: #e6f0fa;
+}
+.stat-item {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto; /* Centers the circle */
+    border-radius: 50%; /* Creates the circular shape */
+    background-color: #fff; /* White background inside the circle */
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow to the circle */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.stat-item h1 {
+    color: #0080ff; /* Blue color for the number */
+    font-size: 48px;
+    margin-bottom: 10px;
+    font-weight: bold; /* Makes the number stand out */
+}
+
+.stat-item p {
+    color: #333; /* Dark text color */
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Responsive Design */
+@media (max-width: 992px) {
+    .about-us-area .row {
+        flex-direction: column-reverse; /* Stack image and text on smaller screens */
+        text-align: center; /* Center text for smaller screens */
+    }
+    .about-us-image {
+        margin-bottom: 30px; /* Adds space between the image and the text on smaller screens */
+    }
+}

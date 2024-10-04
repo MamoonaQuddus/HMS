@@ -1,0 +1,29 @@
+.contact-us-area {
+    /* padding: 60px 0; */
+    background-color: #e6f0fa;
+}
+
+.contact-us-area h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.form-control {
+    margin-bottom: 15px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.btn-primary {
+    background-color: #0080ff;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.btn-primary:hover {
+    background-color: #006bb3;
+}

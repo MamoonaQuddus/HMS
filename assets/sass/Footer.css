@@ -1,0 +1,49 @@
+/* Footer Section CSS */
+.footer-area {
+    background-color: #f4faff; /* Light blue background */
+    padding: 50px 0; /* Padding for top/bottom spacing */
+    color: #333; /* Dark text for contrast */
+}
+
+.footer-area h4 {
+    font-size: 22px; /* Font size for section titles */
+    color: #0080ff; /* Bright blue for heading */
+    margin-bottom: 20px;
+}
+
+.footer-area p {
+    font-size: 16px; /* Standard text size */
+    line-height: 1.6; /* Line spacing for readability */
+    color: white ; /* Slightly lighter text color */
+}
+
+.footer-links {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0;
+}
+
+.footer-links li {
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #0080ff; /* Bright blue links */
+    transition: color 0.3s ease-in-out;
+}
+
+.footer-links a:hover {
+    color: #006bb3; /* Darker blue on hover */
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 30px;
+    border-top: 1px solid #ccc; /* Border for separation */
+    padding-top: 20px;
+}
+
+.footer-bottom p {
+    color: #777; /* Lighter color for copyright text */
+    font-size: 14px;
+}
